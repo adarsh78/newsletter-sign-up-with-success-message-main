@@ -30,10 +30,10 @@ Users should be able to:
 
 ### Screenshot
 
-Desktop: https://github.com/adarsh78/newsletter-sign-up-with-success-message-main/assets/64201509/678fa5c1-b13a-4cfd-994a-1976c0159222
+Desktop: https://github.com/adarsh78/newsletter-sign-up-with-success-message-main/blob/main/Screenshots/desktop.png
 
 
-Mobile: https://github.com/adarsh78/newsletter-sign-up-with-success-message-main/assets/64201509/60698c60-a5eb-4ad0-b452-7417a42fd642
+Mobile: https://github.com/adarsh78/newsletter-sign-up-with-success-message-main/blob/main/Screenshots/mobile.png
 
 ### Links
 
