@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*, *::before,
+ *::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background-color: hsl(234, 29%, 20%);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+    background: hsl(0, 0%, 100%);
+}
+
+.desktopImg{
+    display: none;
+}
+
+.content{
+    padding: 2.1rem 1.7rem;
+}
+
+h1{
+    color: hsl(234, 29%, 20%);
+    font-size: 2.3rem;
+    font-weight: 700;
+}
+
+.content > p{
+    color: hsl(235, 18%, 26%);
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-top: 1.2rem;
+    margin-bottom: 1.6rem;
+    line-height: 1.4rem;
+}
+
+.points{
+    display: flex;
+    gap: 1rem;
+    font-size: 0.9rem;
+    font-weight: 100;
+    color: hsl(235, 18%, 26%);
+    line-height: 1.4rem;
+    margin-bottom: 0.9rem;
+    padding-right: 1rem;
+}
+
+.points > img{
+    width: 20px;
+    height: 20px;
+}
+
+.qq{
+    display: flex;
+    justify-content: space-between;
+}
+
+h2{
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: hsl(234, 29%, 20%);
+    margin-top: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.error{
+    color: hsl(4, 100%, 67%);
+    font-size: 0.7rem;
+    font-weight: 700;
+    margin-top: 2.5rem;
+    display: none;
+}
+
+form > input{
+    width: 100%;
+    padding: 18px 22px;
+    border-radius: 7px;
+    outline: none;
+    border: 1px solid hsl(231, 7%, 60%);
+    margin-bottom: 1.3rem;
+}
+
+button, .dismissBtn{
+    width: 100%;
+    padding: 18px 22px;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(234, 29%, 20%);
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+form > button:hover, .dismissBtn:hover{
+    background-color: #aba5a5;
+    color: hsl(234, 29%, 20%);
+}
+
+.successContainer{
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+    background-color: hsl(0, 0%, 100%);
+    height: 820px;
+    padding: 6rem 1.5rem 1.5rem 1.5rem;
+}
+
+.successMsg{
+    display: none;
+}
+
+.successContainer > img{
+    height: 50px;
+    width: 50px;
+}
+
+.successContainer > h2{
+    font-size: 2rem;
+    line-height: 2rem;
+    margin-bottom: 1.3rem;
+}
+
+.successContainer > p{
+    line-height: 1.5rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+span{
+    color: hsl(234, 29%, 20%);
+    font-weight: 700;
+}
+
+.dismissBtn{
+    margin-top: 23rem;
+}
+
+@media(min-width: 1440px) {
+    body {
+      background-color: hsl(234, 29%, 20%);
+    }
+
+    main{
+        width: 55rem;
+        display: flex;
+        flex-direction: row-reverse;
+        border-radius: 2rem;
+    }
+
+    .content{
+        padding: 6rem 3rem;
+    }
+
+    h1{
+        font-size: 3.175rem;
+    }
+
+    .mobileImg{
+        display: none;
+    }
+
+    .desktopImg{
+        padding: 1.5rem 1.5rem 1.5rem 0;
+        display: block;
+    }
+
+    .successMsg{
+        width: 500px;
+        height: 500px;
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 2rem;
+        padding: 3.5rem;
+    }
+
+    .successMsg > img{
+        width: 60px;
+        height: 60px;
+    }
+
+    .successMsg > h2{
+        font-size: 3.5rem;
+        line-height: 3.5rem;
+    }
+
+    .successMsg > P{
+        padding-right: 1rem;
+    }
+
+    .dismissBtn{
+        margin-top: 2rem;
+    }
+
+  }
